@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Interaktívny obrázok</title>
+</head>
+<body>
+    <div class="topbar"></div>
+    <header>
+        <a href="index.html" class="logo">Martin Hajdučko</a>
+        <nav>
+            <a href="index.html">O mne</a>
+            <a href="curiculum.html">Životopis</a>
+            <a href="schedule.html">Rozvrh</a>
+            <a class="active" href="image.html">Interaktívny obrázok</a>
+        </nav>
+    </header>
+    
+    <div class="container-img">
+        <img class="mb" src="img/mb.jpg" alt="motherboard">
+    
+        <div class="item item-cpu" style="top: 30%; left: 53%;">
+            <div class="pin"></div>
+            <div class="tooltip">
+                <h3>CPU Socket</h3>
+                <p>CPU sockety sa dodávajú v dvoch typoch</p>
+                <ul>
+                    <li>LGA (Land Grid Array)</li>
+                    <li>PGA (Pin Grid Array)</li>
+                </ul>
+                <p>LGA používa malé kontaktné dosky, zatiaľ čo PGA používa tenké piny (kolíky)
+                    pre zapojenie procesora k základnej doske.
+                </p>
+            </div>
+        </div>
+
+        <div class="item item-ram" style="top: 30%; left: 75%">
+            <div class="pin"></div>
+            <div class="tooltip">
+                <h3>DIMM Sloty</h3>
+                <p>(Dual in-line memory module) je miesto na základnej doske,
+                    kam sa vkladajú pamäte RAM. Preto sa môžu označovať aj ako "RAM sloty". 
+                </p>
+                <p><br>Čím viac slotov máte, tým viac pamäte môžete nainštalovať
+                </p>
+            </div>
+        </div>
+
+        <div class="item item-pci" style="top: 75%; left: 42%">
+            <div class="pin"></div>
+            <div class="tooltip">
+                <h3>PCI Sloty</h3>
+                <p>Do týchto slotov sa zapájajú hardvérové zariadenia, ako napríklad grafické, zvukové, sieťové a iné karty.</p>
+            </div>
+        </div>
+
+        <div class="item item-cmos" style="top: 72%; left: 19%">
+            <div class="pin"></div>
+            <div class="tooltip">
+                <h3>CMOS Batéria</h3>
+                <p>Vďaka tejto malej batérii sa viete dostať do BIOSu/UEFI, aj v prípade, že váš operačný systém zlyhá.</p>
+                <p><br>Systém BIOS sa nachádza v čipe CMOS ktorý táto batéria poháňa</p>
+            </div>
+        </div>
+
+        <div class="item item-power" style="top: 7%; left: 27%">
+            <div class="pin"></div>
+            <div class="tooltip">
+                <h3>Konektory napájania</h3>
+                <p>Tieto konektory poskytujú napájanie 
+                    vašej základnej dosky prostredníctvom napájacieho 
+                    zdroja. Káble používané na tieto pripojenia, 
+                    nazývané konektory ATX, poskytujú vašej základnej 
+                    doske bezpečné a konzistentné napájanie.</p>
+            </div>
+        </div>
+    </div>
+    <div class="source"><a href="https://www.asus.com/Motherboards-Components/Motherboards/TUF-Gaming/TUF-GAMING-Z690-PLUS-WIFI-D4/">Zdroj obrázku</a></div>
+</body>
+</html>
